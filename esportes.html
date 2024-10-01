@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes</title>
+    <style>
+        ul{
+            padding: 0;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            margin-right: 10px;
+            color:blue;            
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <button><a href="index.html">Menu</a></button>
+        <button><li><a href="soma.html">Cálculo</a></li></button>
+        <button><li><a href="notas.html">Notas</a></li></button>
+        <button><li><a href="cinema.html">Filmes</a></li></button>
+        <button><li><a href="esportes.html">Materiais Esportivos</a></li></button>
+        <button><li><a href="acai.html">Açaí</a></li></button>
+    </ul>
+    <br>
+    <center><h1>Materiais Esportes Disponíveis</h1></center>
+    <form action="esportes.php" method="post">
+        <label for="esporte1">
+            <h3>Raquete de Tênis</h3>
+            <p>R$ 49,90</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Raquete de Tênis <br> Valor: R$49,90">
+        <hr>
+        <label for="esporte2">
+            <h3>Pé de Pato</h3>
+            <p>R$ 59,99</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Pé de Pato <<br> Valor: R$59,99">
+        <hr>
+        <label for="esporte3">
+            <h3>Óculos de Natação</h3>
+            <p>R$ 30,00</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Óculos de Natação <br> Valor: R$30,00">
+        <hr>
+        <label for="esporte4">
+            <h3>Chuteira</h3>
+            <p>R$ 256,90</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Chuteira <br> Valor: R$256,90">
+        <hr>
+        <label for="esporte5">
+            <h3>Taco de Golf</h3>
+            <p>R$ 86,90</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Taco de Golf <br> Valor: R$86,90">
+        <hr>
+        <label for="esporte6">
+            <h3>Taco de Kriket</h3>
+            <p>R$ 196,90</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Taco de Kriket <br> Valor: R$196,90">
+        <hr>
+        <label for="esporte7">
+            <h3>Bola de Volei</h3>
+            <p>R$ 45,00</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Bola de Volei <br> Valor: R$45,00">
+        <hr>
+        <label for="esporte8">
+            <h3>Macarrão</h3>
+            <p>R$ 25,00</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Macarrão <br> Valor: R$25,00">
+        <hr>
+        <label for="esporte9">
+            <h3>Bola de Futebol</h3>
+            <p>R$ 35,00</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Bola de Futebol <br> Valor: R$35,00">
+        <hr>
+        <label for="esporte10">
+            <h3>Bicicleta</h3>
+            <p>R$ 1.155,00</p>
+        </label>
+        <input type="checkbox" name="esportes[]" value="Bicicleta <br> Valor: R$1.155,00">
+        <hr>
+        <input type="submit" name="submit" value="Confirmar">
+    </form>
+</body>
+</html>
